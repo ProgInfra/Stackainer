@@ -1,0 +1,13 @@
+---
+version: '3.6'
+
+services:
+  stackainer-docs:
+    container_name: stackainer-docs
+    image: stackainer-docs:latest
+    build:
+      context: ..
+      dockerfile: ./docsify/Dockerfile
+    ports:
+    - 6007:80
+    restart: unless-stopped
