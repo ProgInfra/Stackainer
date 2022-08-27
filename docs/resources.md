@@ -14,3 +14,4 @@
 - [Awesome Stacks](https://github.com/ethibox/awesome-stacks) : Stack already available
 - [Awesome Self Hosted](https://github.com/awesome-selfhosted/awesome-selfhosted) : List of Self Hosted Services
 - [Linuxserver.io](https://www.linuxserver.io/) : Great Community Images
+- [Blackfish](https://gitlab.com/blackfish/blackfish) : CoreOS VM to build swarm clusters for Dev and Production

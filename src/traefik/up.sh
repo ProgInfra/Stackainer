@@ -2,6 +2,10 @@
 
 echo "Start Each Services of each Stack ..."
 
+# Get Global Environment Variables
+echo "Get Global Environment Variables ..."
+source ./.env.sample
+
 # For Each Stack
 for stack in */; do
     echo "\nStack : $(echo $stack | sed 's/.$//' | sed 's/.*/\u&/')"
