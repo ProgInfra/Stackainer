@@ -75,85 +75,87 @@ Each stack have a lot of **services available** (if **checked**) or in futur (if
 
 - [**Depends Stack**](./docs/depends.md) :
   - [ ] [Traefik Proxy V2](https://traefik.io/traefik/) : Cloud Native Application Proxy.
+    - **Port** : 80 (HTTP) / 443 (HTTPS)
+    - **Base URL** : proxy.DOMAIN
 
 ### Management Stack
 
 - [**Management Stack**](./docs/management.md) :
-  - [ ] [Portainer](https://www.portainer.io/) (**Port** : TODO / **Base URL** : TODO) : Container Management.
+  - [ ] [Portainer](https://www.portainer.io/) : Container Management.
+    - **Port** : TODO
+    - **Base URL** : TODO
 
 ### Storage Stack
 
 - [**Storage Stack**](./docs/storage.md) :
-  - [ ] [Minio](https://min.io/) (**Port** : TODO / **Base URL** : TODO) : Multi-Cloud Object Storage (S3 API Compatible).
+  - [ ] [Minio](https://min.io/) : Multi-Cloud Object Storage (S3 API Compatible).
 
 ### Backup Stack
 
 - [**Backup Stack**](./docs/backup.md) :
-  - [ ] [Duplicati](https://www.duplicati.com/) (**Port** : TODO / **Base URL** : TODO) : Global Backup software.
-  - [ ] [Docker DB Backup](https://github.com/tiredofit/docker-db-backup) (**Port** : TODO / **Base URL** : TODO) : Auto Backup multiple types of Databases.
+  - [ ] [Duplicati](https://www.duplicati.com/) : Global Backup software.
 
 ### Monitoring Stack
 
 - [**Monitoring Stack**](./docs/monitoring.md) :
-  - [ ] [Prometheus](https://prometheus.io/) (**Port** : TODO / **Base URL** : TODO) : Metrics recorder.
-  - [ ] [Grafana](https://grafana.com/) (**Port** : TODO / **Base URL** : TODO) : Great Metrics visualizer with Dashboard.
-  - [ ] [cAdvisor](https://github.com/google/cadvisor) (**Port** : TODO / **Base URL** : TODO) : Sensor to get metrics from container.
-  - [ ] [Node Exporter](https://github.com/prometheus/node_exporter) (**Port** : TODO / **Base URL** : TODO) : Sensor to get metrics from hardware and OS.
-  - [ ] [Alert Manager](https://github.com/prometheus/alertmanager) (**Port** : TODO / **Base URL** : TODO) : Handles alerts and send notifications to clients.
-  - [ ] [Unsee](https://github.com/cloudflare/unsee) (**Port** : TODO / **Base URL** : TODO) : Alert Dashboard for Alert Manager.
-  - [ ] [Uptime Kuma](https://github.com/louislam/uptime-kuma) (**Port** : TODO / **Base URL** : TODO) : Web App to Check Uptime of website or services.
-  - [ ] [Watchtower](https://github.com/containrrr/watchtower) (**Port** : TODO / **Base URL** : TODO) : Automating Docker Container Updates.
-  - [ ] [Scrutiny](https://github.com/AnalogJ/scrutiny) (**Port** : TODO / **Base URL** : TODO) : SMART Monitoring.
+  - [ ] [NetData](https://www.netdata.cloud/) : Automated and easy monitoring everything on server.
+  - [ ] [Prometheus](https://prometheus.io/) : Metrics recorder.
+  - [ ] [Grafana](https://grafana.com/) : Great Metrics visualizer with Dashboard.
+  - [ ] [cAdvisor](https://github.com/google/cadvisor) : Sensor to get metrics from container.
+  - [ ] [Node Exporter](https://github.com/prometheus/node_exporter) : Sensor to get metrics from hardware and OS.
+  - [ ] [Alert Manager](https://github.com/prometheus/alertmanager) : Handles alerts and send notifications to clients.
+  - [ ] [Unsee](https://github.com/cloudflare/unsee) : Alert Dashboard for Alert Manager.
+  - [ ] [Uptime Kuma](https://github.com/louislam/uptime-kuma) : Web App to Check Uptime of website or services.
+  - [ ] [Watchtower](https://github.com/containrrr/watchtower) : Automating Docker Container Updates.
+  - [ ] [Scrutiny](https://github.com/AnalogJ/scrutiny) : SMART Monitoring.
 
 ### Access Stack
 
 - [**Access Stack**](./docs/access.md) :
-  - [ ] [Heimdall](https://heimdall.site/) (**Port** : TODO / **Base URL** : TODO) : Applications Dashboard.
-  - [ ] [Organizr](https://organizr.app/) (**Port** : TODO / **Base URL** : TODO) : Services portal.
-  - [ ] [Pi-Hole](https://pi-hole.net/) (**Port** : TODO / **Base URL** : TODO) : Network-wide Ad Blocking.
-  - [ ] [WireGuard](https://www.wireguard.com/) (**Port** : TODO / **Base URL** : TODO) : Fast, Modern and Secure VPN Tunnel.
-  - [ ] [WG-Manager](https://github.com/perara/wg-manager) (**Port** : TODO / **Base URL** : TODO) : Manage WireGuard with web UI.
+  - [ ] [Heimdall](https://heimdall.site/) : Applications Dashboard.
+  - [ ] [Organizr](https://organizr.app/) : Services portal.
+  - [ ] [WireGuard](https://www.wireguard.com/) : Fast, Modern and Secure VPN Tunnel.
+  - [ ] [WG-Manager](https://github.com/perara/wg-manager) : Manage WireGuard with web UI.
 
 ### Security Stack
 
 - [**Security Stack**](./docs/security.md) :
-  - [ ] [Authentik](https://goauthentik.io/) (**Port** : TODO / **Base URL** : TODO) : Open Source Identity Provider.
-  - [ ] [VaultWarden](https://github.com/dani-garcia/vaultwarden) (**Port** : TODO / **Base URL** : TODO) : Alternative of Bitwarden server in Rust compatible with Bitwarden clients.
+  - [ ] [Authentik](https://goauthentik.io/) : Open Source Identity Provider.
+  - [ ] [VaultWarden](https://github.com/dani-garcia/vaultwarden) : Alternative of Bitwarden server in Rust compatible with Bitwarden clients.
 
 ### Media Stack
 
 - [**Media Stack**](./docs/media.md) :
-  - [ ] [Jellyfin](https://jellyfin.org/) (**Port** : TODO / **Base URL** : TODO) : Open Source Media System.
-  - [ ] [MiniFlux](https://miniflux.app/) (**Port** : TODO / **Base URL** : TODO) : Minimalist and opinionated feed reader.
-  - [ ] [Kavita](https://www.kavitareader.com/) (**Port** : TODO / **Base URL** : TODO) : Digital Ebook Livrary.
+  - [ ] [Jellyfin](https://jellyfin.org/) : Open Source Media System.
+  - [ ] [Pydio Cells](https://pydio.com/) : Files Cloud.
 
 ### Download Stack
 
 - [**Download Stack**](./docs/download.md) :
-  - [ ] [Transmission Control](https://gitlab.com/proginfra/transmission_control) (**Port** : TODO / **Base URL** : TODO) : Transmission with VPN support and an advanced Web GUI.
-  - [ ] [Jackett](https://github.com/Jackett/Jackett) (**Port** : TODO / **Base URL** : TODO) : Tracker Site Manager.
-  - [ ] [MeTube](https://github.com/alexta69/metube) (**Port** : TODO / **Base URL** : TODO) : Web GUI for youtube-dl (using the yt-dlp fork).
-  - [ ] [pyLoad](https://pyload.net/) (**Port** : TODO / **Base URL** : TODO) : Great Download Manager.
-  - [ ] HakuNeko Docker : Manga Downloader with Web UI.
+  - [ ] [Transmission Control](https://gitlab.com/proginfra/transmission_control) : Transmission with VPN support and an advanced Web GUI.
+  - [ ] [Jackett](https://github.com/Jackett/Jackett) : Tracker Site Manager.
+  - [ ] [MeTube](https://github.com/alexta69/metube) : Web GUI for youtube-dl (using the yt-dlp fork).
+  - [ ] [pyLoad](https://pyload.net/) : Great Download Manager.
 
 ### Utility Stack
 
 - [**Utility Stack**](./docs/utility.md) :
-  - [ ] [The Lounge](https://thelounge.chat/) (**Port** : TODO / **Base URL** : TODO) : Web IRC Client
-  - [ ] [Grocy](https://github.com/grocy/grocy) (**Port** : TODO / **Base URL** : TODO) : Food Management.
-  - [ ] [ProjectSend](https://www.projectsend.org/) (**Port** : TODO / **Base URL** : TODO) : Upload and Share Application.
+  - [ ] [Grocy](https://github.com/grocy/grocy) : Food Management.
+  - [ ] [Monica](https://github.com/monicahq/monica) : Personal Relationship Manager.
+  - [ ] [Taiga.io](https://github.com/taigaio/) / [Wekan](https://github.com/wekan/wekan) / [Kanboard](https://github.com/kanboard/kanboard) : Kanban Board.
+  - [ ] [ProjectSend](https://www.projectsend.org/) : Upload and Share Application.
 
 ### Development Stack
 
 - [**Development Stack**](./docs/development.md) :
-  - [ ] [PostgreSQL](https://www.postgresql.org/) (**Port** : TODO / **Base URL** : TODO) : Advanced SQL Database with PL/SQL (Oracle alternative).
-  - [ ] [pgAdmin](https://www.pgadmin.org/) (**Port** : TODO / **Base URL** : TODO) : PostgreSQL Tools.
-  - [ ] [MariaDB](https://mariadb.org/) (**Port** : TODO / **Base URL** : TODO) : Open Source SQL Database.
-  - [ ] [MySQL](https://www.mysql.com/) (**Port** : TODO / **Base URL** : TODO) : SQL Database.
-  - [ ] [Adminer](https://www.adminer.org/) (**Port** : TODO / **Base URL** : TODO) : SQL Database Tools.
-  - [ ] [PHPMyAdmin](https://www.phpmyadmin.net/) (**Port** : TODO / **Base URL** : TODO) : SQL Database Tools.
-  - [ ] [MongoDB](https://www.mongodb.com/) (**Port** : TODO / **Base URL** : TODO) : NoSQL Database.
-  - [ ] [Mongo Express](https://github.com/mongo-express/mongo-express) (**Port** : TODO / **Base URL** : TODO) : NoSQL Database Tools for MongoDB.
+  - [ ] [PostgreSQL](https://www.postgresql.org/) : Advanced SQL Database with PL/SQL (Oracle alternative).
+  - [ ] [pgAdmin](https://www.pgadmin.org/) : PostgreSQL Tools.
+  - [ ] [MariaDB](https://mariadb.org/) : Open Source SQL Database.
+  - [ ] [MySQL](https://www.mysql.com/) : SQL Database.
+  - [ ] [Adminer](https://www.adminer.org/) : SQL Database Tools.
+  - [ ] [PHPMyAdmin](https://www.phpmyadmin.net/) : SQL Database Tools.
+  - [ ] [MongoDB](https://www.mongodb.com/) : NoSQL Database.
+  - [ ] [Mongo Express](https://github.com/mongo-express/mongo-express) : NoSQL Database Tools for MongoDB.
 
 ## Changelog
 
