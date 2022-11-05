@@ -52,10 +52,10 @@
 
 - [ ] [Rclone](https://rclone.org/gui/) : Manage file and Cloud storage.
 - [ ] [Syncthing](https://syncthing.net/) : Cloud Sync Management.
+- [ ] [Docker DB Backup](https://github.com/tiredofit/docker-db-backup) : Auto Backup multiple types of Databases.
 
 ### Monitoring Stack
 
-- [ ] [NetData](https://www.netdata.cloud/) : Automated and easy monitoring everything on server.
 - [ ] [Docker Swarm Visualizer](https://github.com/dockersamples/docker-swarm-visualizer) : Swarm Visualizer.
 
 ### Access Stack
@@ -65,6 +65,7 @@
 - [ ] [WG UI](https://github.com/EmbarkStudios/wg-ui) : Basic WireGuard web UI.
 - [ ] [WireGuard-UI](https://github.com/ngoduykhanh/wireguard-ui) : WireGuard web UI.
 - [ ] [Mistborn](https://gitlab.com/cyber5k/mistborn) : WireGuard and Firewall Management.
+- [ ] [Pi-Hole](https://pi-hole.net/) : Network-wide Ad Blocking.
 
 ### Security Stack
 
@@ -87,7 +88,8 @@
 - [ ] [Piwigo](http://piwigo.org/) : Image Media.
 - [ ] [Nextcloud](https://nextcloud.com/) : Files Cloud.
 - [ ] [Owncloud](https://owncloud.com/) : Files Cloud.
-- [ ] [Pydio Cells](https://pydio.com/) : Files Cloud.
+- [ ] [Kavita](https://www.kavitareader.com/) : Digital Ebook Livrary.
+- [ ] [MiniFlux](https://miniflux.app/) : Minimalist and opinionated feed reader.
 
 ### Download Stack
 
@@ -104,6 +106,8 @@
 - [ ] [Radarr](https://github.com/Radarr/Radarr) : Fork of Sonarr but for Movies Auto Downloader.
 - [ ] [Sonarr](https://github.com/Sonarr/Sonarr) : Series Auto Downloader.
 - [ ] [Bazarr](https://www.bazarr.media/) : Companion to Sonarr and Radarr to download Subtitles.
+- [ ] [Focalboard](https://www.focalboard.com/) : Project and Task management.
+- [ ] HakuNeko Docker : Manga Downloader with Web UI.
 
 ### Utility Stack
 
@@ -118,10 +122,10 @@
 - [ ] [Pinry](https://docs.getpinry.com/) : Tiling Image Board.
 - [ ] [Shiori](https://github.com/go-shiori/shiori) : Bookmarks manager.
 - [ ] [Drawio](https://github.com/jgraph/drawio) : Web app to create diagram.
-- [ ] [Focalboard](https://www.focalboard.com/) : Project and Task management.
 - [ ] [Freshrss](https://freshrss.org/) : RSS Feeds Management.
 - [ ] [HedgeDoc](https://hedgedoc.org/) : Markdown Management.
 - [ ] [Paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) : Archive Paper Document.
+- [ ] [The Lounge](https://thelounge.chat/) : Web IRC Client
 
 ### Development Stack
 
