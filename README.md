@@ -110,6 +110,7 @@ Each stack have a lot of **services available** (if **checked**) or in futur (if
 - [**Access Stack**](./docs/access.md) :
   - [ ] [Heimdall](https://heimdall.site/) (**Port** : TODO / **Base URL** : TODO) : Applications Dashboard.
   - [ ] [Organizr](https://organizr.app/) (**Port** : TODO / **Base URL** : TODO) : Services portal.
+  - [ ] [Dashy](https://dashy.to/) (**Port** : TODO / **Base URL** : TODO) : Ultimate Homepage for Homelab.
   - [ ] [Pi-Hole](https://pi-hole.net/) (**Port** : TODO / **Base URL** : TODO) : Network-wide Ad Blocking.
   - [ ] [WireGuard](https://www.wireguard.com/) (**Port** : TODO / **Base URL** : TODO) : Fast, Modern and Secure VPN Tunnel.
   - [ ] [WG-Manager](https://github.com/perara/wg-manager) (**Port** : TODO / **Base URL** : TODO) : Manage WireGuard with web UI.
@@ -131,6 +132,7 @@ Each stack have a lot of **services available** (if **checked**) or in futur (if
 
 - [**Download Stack**](./docs/download.md) :
   - [ ] [Transmission Control](https://gitlab.com/proginfra/transmission_control) (**Port** : TODO / **Base URL** : TODO) : Transmission with VPN support and an advanced Web GUI.
+  - [TODO] Ultimate Download Manager (**Port** : TODO / **Base URL** : TODO) : TODO
   - [ ] [Jackett](https://github.com/Jackett/Jackett) (**Port** : TODO / **Base URL** : TODO) : Tracker Site Manager.
   - [ ] [MeTube](https://github.com/alexta69/metube) (**Port** : TODO / **Base URL** : TODO) : Web GUI for youtube-dl (using the yt-dlp fork).
   - [ ] [pyLoad](https://pyload.net/) (**Port** : TODO / **Base URL** : TODO) : Great Download Manager.
@@ -142,6 +144,10 @@ Each stack have a lot of **services available** (if **checked**) or in futur (if
   - [ ] [The Lounge](https://thelounge.chat/) (**Port** : TODO / **Base URL** : TODO) : Web IRC Client
   - [ ] [Grocy](https://github.com/grocy/grocy) (**Port** : TODO / **Base URL** : TODO) : Food Management.
   - [ ] [ProjectSend](https://www.projectsend.org/) (**Port** : TODO / **Base URL** : TODO) : Upload and Share Application.
+  - [ ] [Firefly III](https://www.firefly-iii.org/) (**Port** : TODO / **Base URL** : TODO) : Open Source Personal Finance Manager.
+  - [ ] [Planka](https://planka.app/) (**Port** : TODO / **Base URL** : TODO) : Open Source Kanban board.
+  - [ ] [Searx](https://searx.github.io/searx/) (**Port** : TODO / **Base URL** : TODO) : Free Search Engine.
+  - [ ] [Wallabag](https://github.com/wallabag/wallabag) (**Port** : TODO / **Base URL** : TODO) : Web Application to save web pages.
 
 ### Development Stack
 
