@@ -30,6 +30,7 @@
   - Register in DNS : Use IP of Traefik Server in DNS
 - Automatic Script : Ansible / Bash / Typer
 - Be Careful to permission
+- Frontend to get web UI to create new stack
 
 ## Stack Ideas
 
@@ -53,6 +54,7 @@
 - [ ] [Rclone](https://rclone.org/gui/) : Manage file and Cloud storage.
 - [ ] [Syncthing](https://syncthing.net/) : Cloud Sync Management.
 - [ ] [Docker DB Backup](https://github.com/tiredofit/docker-db-backup) : Auto Backup multiple types of Databases.
+- [ ] Discord Backup Script : TODO
 
 ### Monitoring Stack
 
@@ -71,6 +73,10 @@
 
 - [ ] [Keycloak](https://www.keycloak.org/) : Open Source Identity and Access Management.
 - [ ] [Authelia](https://www.authelia.com/) : Open Source Authentication and Authorization server and portal.
+- [ ] [Bitwarden](https://bitwarden.com/) : Advanced Personnal Password Manager.
+- [ ] [Passbolt](https://www.passbolt.com/) : Open Source Password Manager for teams.
+- [ ] NordVPN / OpenVPN : TODO
+- [ ] Vault : TODO
 - [ ] LDAP Server ?
 
 ### Media Stack

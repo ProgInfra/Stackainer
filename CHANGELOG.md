@@ -8,7 +8,8 @@
   - [Table Of Contents](#table-of-contents)
   - [Description](#description)
   - [Lasted](#lasted)
-  - [[0.1.0] - 15-08-2022](#010---15-08-2022)
+  - [\[1.0.0\] - ??-??-2023](#100-----2023)
+  - [\[0.1.0\] - 15-08-2022](#010---15-08-2022)
 
 ## Description
 
@@ -35,6 +36,18 @@ Types of changes :
 
 - **Application Version** : [0.1.0] - 15-08-2022
 - **E Sphere Framework Version** : [1.10.0]
+
+## [1.0.0] - ??-??-2023
+
+- **Added** :
+  - **Services** :
+    - TODO
+  - **Script** :
+    - TODO
+  - **Documentations** :
+    - TODO
+- **Changed** :
+  - Upgrade E Sphere Framework 1.10.0 to 1.12.0
 
 ## [0.1.0] - 15-08-2022
 

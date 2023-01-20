@@ -49,13 +49,7 @@ This project **regroup** a **lot of services available** on **Docker** (mainly *
 
 ## Getting Started
 
-1) TODO Clone the Repository
-2) TODO Auto Script with choice ?
-3) TODO Choose Type of Stack
-4) TODO Delete Services you don't want
-5) TODO Configure each services with .env files
-6) TODO Use script to launch the stack and stop the stack
-7) TODO Verify each services
+TODO Script Staickainer
 
 ## Type of Stack Available
 
@@ -74,14 +68,14 @@ Each stack have a lot of **services available** (if **checked**) or in futur (if
 **Depends** is an **important Stack** to setup some **services** before all other like **Traefik** which is needed for each services.
 
 - [**Depends Stack**](./docs/depends.md) :
-  - [ ] [Traefik Proxy V2](https://traefik.io/traefik/) : Cloud Native Application Proxy.
+  - [TODO] [Traefik Proxy V2](https://traefik.io/traefik/) : Cloud Native Application Proxy.
     - **Port** : 80 (HTTP) / 443 (HTTPS)
     - **Base URL** : proxy.DOMAIN
 
 ### Management Stack
 
 - [**Management Stack**](./docs/management.md) :
-  - [ ] [Portainer](https://www.portainer.io/) : Container Management.
+  - [TODO] [Portainer](https://www.portainer.io/) : Container Management.
     - **Port** : TODO
     - **Base URL** : TODO
 
@@ -93,37 +87,37 @@ Each stack have a lot of **services available** (if **checked**) or in futur (if
 ### Backup Stack
 
 - [**Backup Stack**](./docs/backup.md) :
-  - [ ] [Duplicati](https://www.duplicati.com/) : Global Backup software.
+  - [TODO] [Duplicati](https://www.duplicati.com/) : Global Backup software.
 
 ### Monitoring Stack
 
 - [**Monitoring Stack**](./docs/monitoring.md) :
   - [ ] [NetData](https://www.netdata.cloud/) : Automated and easy monitoring everything on server.
-  - [ ] [Prometheus](https://prometheus.io/) : Metrics recorder.
-  - [ ] [Grafana](https://grafana.com/) : Great Metrics visualizer with Dashboard.
-  - [ ] [cAdvisor](https://github.com/google/cadvisor) : Sensor to get metrics from container.
-  - [ ] [Node Exporter](https://github.com/prometheus/node_exporter) : Sensor to get metrics from hardware and OS.
+  - [TODO] [Prometheus](https://prometheus.io/) : Metrics recorder.
+  - [TODO] [Grafana](https://grafana.com/) : Great Metrics visualizer with Dashboard.
+  - [TODO] [cAdvisor](https://github.com/google/cadvisor) : Sensor to get metrics from container.
+  - [TODO] [Node Exporter](https://github.com/prometheus/node_exporter) : Sensor to get metrics from hardware and OS.
   - [ ] [Alert Manager](https://github.com/prometheus/alertmanager) : Handles alerts and send notifications to clients.
   - [ ] [Unsee](https://github.com/cloudflare/unsee) : Alert Dashboard for Alert Manager.
-  - [ ] [Uptime Kuma](https://github.com/louislam/uptime-kuma) : Web App to Check Uptime of website or services.
-  - [ ] [Watchtower](https://github.com/containrrr/watchtower) : Automating Docker Container Updates.
+  - [TODO] [Uptime Kuma](https://github.com/louislam/uptime-kuma) : Web App to Check Uptime of website or services.
+  - [TODO] [Watchtower](https://github.com/containrrr/watchtower) : Automating Docker Container Updates.
   - [ ] [Scrutiny](https://github.com/AnalogJ/scrutiny) : SMART Monitoring.
 
 ### Access Stack
 
 - [**Access Stack**](./docs/access.md) :
-  - [ ] [Heimdall](https://heimdall.site/) : Applications Dashboard.
+  - [TODO] [Heimdall](https://heimdall.site/) : Applications Dashboard.
   - [ ] [Organizr](https://organizr.app/) : Services portal.
   - [ ] [Dashy](https://dashy.to/) : Ultimate Homepage for Homelab.
   - [ ] [Pi-Hole](https://pi-hole.net/) : Network-wide Ad Blocking.
-  - [ ] [WireGuard](https://www.wireguard.com/) : Fast, Modern and Secure VPN Tunnel.
-  - [ ] [WG-Manager](https://github.com/perara/wg-manager) : Manage WireGuard with web UI.
+  - [TODO] [WireGuard](https://www.wireguard.com/) : Fast, Modern and Secure VPN Tunnel.
+  - [TODO] [WG-Manager](https://github.com/perara/wg-manager) : Manage WireGuard with web UI.
 
 ### Security Stack
 
 - [**Security Stack**](./docs/security.md) :
   - [ ] [Authentik](https://goauthentik.io/) : Open Source Identity Provider.
-  - [ ] [VaultWarden](https://github.com/dani-garcia/vaultwarden) : Alternative of Bitwarden server in Rust compatible with Bitwarden clients.
+  - [TODO] [Vaultwarden](https://github.com/dani-garcia/vaultwarden) : Alternative of Bitwarden server in Rust compatible with Bitwarden clients.
 
 ### Media Stack
 
@@ -134,9 +128,9 @@ Each stack have a lot of **services available** (if **checked**) or in futur (if
 ### Download Stack
 
 - [**Download Stack**](./docs/download.md) :
-  - [ ] [Transmission Control](https://gitlab.com/proginfra/transmission_control) : Transmission with VPN support and an advanced Web GUI.
-  - [TODO] Ultimate Download Manager : TODO
-  - [ ] [Jackett](https://github.com/Jackett/Jackett) : Tracker Site Manager.
+  - [TODO] [Transmission Control](https://gitlab.com/proginfra/transmission_control) : Transmission with VPN support and an advanced Web GUI.
+  - [ ] [DLeaderr](https://gitlab.com/proginfra/dleaderr) : Coordinator to use with Jackett as Torrent Indexer and Transmission as Torrent Downloader.
+  - [TODO] [Jackett](https://github.com/Jackett/Jackett) : Tracker Site Manager.
   - [ ] [MeTube](https://github.com/alexta69/metube) : Web GUI for youtube-dl (using the yt-dlp fork).
   - [ ] [pyLoad](https://pyload.net/) : Great Download Manager.
   - [ ] HakuNeko Docker : Manga Downloader with Web UI.
@@ -147,12 +141,14 @@ Each stack have a lot of **services available** (if **checked**) or in futur (if
   - [ ] [The Lounge](https://thelounge.chat/) : Web IRC Client
   - [ ] [Grocy](https://github.com/grocy/grocy) : Food Management.
   - [ ] [Monica](https://github.com/monicahq/monica) : Personal Relationship Manager.
-  - [ ] [ProjectSend](https://www.projectsend.org/) : Upload and Share Application.
+  - [TODO] [ProjectSend](https://www.projectsend.org/) : Upload and Share Application.
   - [ ] [Firefly III](https://www.firefly-iii.org/) : Open Source Personal Finance Manager.
-  - [ ] [Planka](https://planka.app/) : Open Source Kanban board.
   - [ ] [Searx](https://searx.github.io/searx/) : Free Search Engine.
   - [ ] [Wallabag](https://github.com/wallabag/wallabag) : Web Application to save web pages.
-  - [ ] [Taiga.io](https://github.com/taigaio/) / [Wekan](https://github.com/wekan/wekan) / [Kanboard](https://github.com/kanboard/kanboard) : Kanban Board.
+  - [TODO] [Planka](https://planka.app/) : Open Source Kanban board.
+  - [ ] [Taiga.io](https://github.com/taigaio/) : Kanban Board.
+  - [ ] [Wekan](https://github.com/wekan/wekan) : Kanban Board.
+  - [ ] [Kanboard](https://github.com/kanboard/kanboard) : Kanban Board.
 
 ### Development Stack
 
@@ -195,10 +191,10 @@ We use **Docker** :
 cd docsify
 
 # Development
-docker-compose -f docker-compose.dev.yml up
+docker compose -f docker-compose.dev.yml up
 
 # Production
-docker-compose up --build
+docker compose up --build
 ```
 
 ## Contributing
