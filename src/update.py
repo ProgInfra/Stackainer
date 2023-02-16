@@ -15,6 +15,10 @@ async def update():
     '''
     Update stackainer.
     '''
+    # Delete current src folder of Stackainer
+    # Git clone of Stackainer
+    # Reload Database
+    # Save Database
     pass
 
 
@@ -24,4 +28,6 @@ async def upgrade():
     '''
     Upgrade services.
     '''
+    # Compare Current Service with Newer Service
+    # Install it
     pass

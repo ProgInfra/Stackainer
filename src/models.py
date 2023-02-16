@@ -6,19 +6,24 @@ class Service:
     version = None
     # Type Enum [Port / Traefik]
     type = None
-    # Type Enum [docker / swarm]
+    # Engine Enum [docker / swarm]
     engine = None
+    # Category Enum [TODO]
+    category = None
     variables = []
     secrets = []
 
-    def from_file(filename: str):
+    async def from_file(filename: str):
         '''
         Parse Service from .env file.
         '''
+        # Parse .env file
+        # Load Service
         pass
 
-    def to_file(filename: str):
+    async def to_file(filename: str):
         '''
         Save Service to .env file.
         '''
+        # Save to .env file
         pass

@@ -22,6 +22,17 @@ async def init():
 
 @app.command()
 @utils.typer_async
+async def load():
+    '''
+    Load the Database of Stackainer.
+    '''
+    # Find each Services
+    # Store the new database into JSON file
+    pass
+
+
+@app.command()
+@utils.typer_async
 async def list():
     '''
     List services installed or available.
