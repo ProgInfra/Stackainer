@@ -22,6 +22,19 @@ async def init():
 
 @app.command()
 @utils.typer_async
+async def check():
+    '''
+    Check if a stack service is correctly formatted.
+    '''
+    # Get Parameters
+    # Read folder, docker compose file and .env file
+    # Try to get the service model
+    # Display each parameters
+    pass
+
+
+@app.command()
+@utils.typer_async
 async def load():
     '''
     Load the Database of Stackainer.

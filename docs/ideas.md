@@ -14,10 +14,12 @@
     - [Monitoring Stack](#monitoring-stack)
     - [Access Stack](#access-stack)
     - [Security Stack](#security-stack)
+    - [Game Stack](#game-stack)
     - [Media Stack](#media-stack)
     - [Download Stack](#download-stack)
     - [Utility Stack](#utility-stack)
     - [Development Stack](#development-stack)
+    - [Miscellaneous](#miscellaneous)
 
 ## Ideas
 
@@ -71,13 +73,18 @@
 
 ### Security Stack
 
-- [ ] [Keycloak](https://www.keycloak.org/) : Open Source Identity and Access Management.
+- [ ] [Authentik](https://goauthentik.io/) : Open Source Identity Provider.
 - [ ] [Authelia](https://www.authelia.com/) : Open Source Authentication and Authorization server and portal.
 - [ ] [Bitwarden](https://bitwarden.com/) : Advanced Personnal Password Manager.
 - [ ] [Passbolt](https://www.passbolt.com/) : Open Source Password Manager for teams.
+- [ ] [2FAuth](https://github.com/Bubka/2FAuth) : Two-Factor Authentication (2FA) Account Management.
 - [ ] NordVPN / OpenVPN : TODO
 - [ ] Vault : TODO
 - [ ] LDAP Server ?
+
+### Game Stack
+
+- Nothing.
 
 ### Media Stack
 
@@ -149,3 +156,7 @@
 - [ ] [Code Server](https://github.com/coder/code-server) : VS Code on web browser.
 - [ ] [Cloud9](https://github.com/c9/core) : Web IDE.
 - [ ] [NetBox](https://github.com/netbox-community/netbox) : Network Infrastructure Modeling.
+
+### Miscellaneous
+
+- Nothing.
