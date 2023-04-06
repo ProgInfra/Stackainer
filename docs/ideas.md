@@ -138,7 +138,9 @@
 - [ ] [Freshrss](https://freshrss.org/) : RSS Feeds Management.
 - [ ] [HedgeDoc](https://hedgedoc.org/) : Markdown Management.
 - [ ] [Paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) : Archive Paper Document.
-- [ ] [The Lounge](https://thelounge.chat/) : Web IRC Client
+- [ ] [The Lounge](https://thelounge.chat/) : Web IRC Client.
+- [ ] [Peppermint](https://github.com/Peppermint-Lab/peppermint) : Simple Ticket Management.
+- [ ] [UVdesk](https://www.uvdesk.com/en/) : Advanced Ticket Management.
 
 ### Development Stack
 
@@ -156,6 +158,7 @@
 - [ ] [Code Server](https://github.com/coder/code-server) : VS Code on web browser.
 - [ ] [Cloud9](https://github.com/c9/core) : Web IDE.
 - [ ] [NetBox](https://github.com/netbox-community/netbox) : Network Infrastructure Modeling.
+- [ ] [DevDocs](https://github.com/freeCodeCamp/devdocs) : Offline Development Documentation.
 
 ### Miscellaneous
 

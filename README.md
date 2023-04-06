@@ -11,6 +11,8 @@
   - [Description](#description)
   - [Access](#access)
   - [Getting Started](#getting-started)
+    - [With Pip](#with-pip)
+    - [With Docker](#with-docker)
   - [Type of Deployment Available](#type-of-deployment-available)
   - [Stack Available](#stack-available)
     - [Management Stack](#management-stack)
@@ -28,8 +30,7 @@
   - [Changelog](#changelog)
   - [Documentations](#documentations)
   - [Development](#development)
-    - [Requirements](#requirements)
-    - [Docsify](#docsify)
+    - [Build and Deploy](#build-and-deploy)
   - [Contributing](#contributing)
   - [Licence](#licence)
 
@@ -50,7 +51,37 @@ This project **regroup** a **lot of services available** on **Docker** (mainly *
 
 ## Getting Started
 
-TODO Script Staickainer
+### With Pip
+
+To **install** it :
+
+```bash
+# Install with Pip
+pip install --user stackainer
+```
+
+To **use** it :
+
+```bash
+stackainer --help
+TODO
+```
+
+### With Docker
+
+To **install** it :
+
+```bash
+docker pull progower/stackainer:1.0.0
+```
+
+To **use** it :
+
+```bash
+alias stackainer='docker run --rm -it -v ${PWD}:/app --workdir /app progower/stackainer:1.0.0 stackainer'
+stackainer --help
+TODO
+```
 
 TODO Documentation Create new stack ./docs/stack.md
 
@@ -105,6 +136,7 @@ Each stack have a lot of **services available** (if **checked**) or in futur (if
 - [ ] [Pi-Hole](https://pi-hole.net/) : Network-wide Ad Blocking.
 - [ ] [WireGuard](https://www.wireguard.com/) : Fast, Modern and Secure VPN Tunnel.
 - [ ] [WG-Manager](https://github.com/perara/wg-manager) : Manage WireGuard with web UI.
+- [ ] [AdGuard Home](https://adguard.com/en/adguard-home/overview.html) : Blocker of ads and tracking (DNS and DHCP Server).
 
 ### Security Stack
 
@@ -115,6 +147,7 @@ Each stack have a lot of **services available** (if **checked**) or in futur (if
 
 - [ ] [Crafty Controller](https://craftycontrol.com/) : Open Source Minecraft Server Manager.
 - [ ] [PufferPanel](https://www.pufferpanel.com/) : Open Source Game Server Management Panel.
+- [ ] [Factorio Server Manager](https://github.com/OpenFactorioServerManager/factorio-server-manager/tree/master) : Open Factorio Server Manager.
 
 ### Media Stack
 
@@ -173,27 +206,28 @@ See [CHANGELOG](./CHANGELOG.md) for more information.
 
 If you want you can **develop** this repository :
 
-1) You need to install the [Requirements](#requirements)
-2) You can develop on [Docsify](#docsify)
+1) You need to install **[Docker](https://docs.docker.com/get-docker/)** and **[Make](https://progdevlab.gitlab.io/dyntools/#/docs/global/makefile)**
+2) [Build and Deploy](#build-and-deploy) the application
 
-### Requirements
+### Build and Deploy
 
-We use **Docker** :
-
-- Docker
-- Docker Compose
-
-### Docsify
-
-```bash
-cd docsify
-
-# Development
-docker compose -f docker-compose.dev.yml up
-
-# Production
-docker compose up --build
-```
+- **Production** :
+  - `make publish` : [TODO](https://typer.tiangolo.com/tutorial/package/#publish-to-pypi-optional) with pdm publish
+  - `make publish-docker` : Publish in Docker repository
+  - `make build` : Build
+  - `make start` : Start
+  - `make start-detach` : Start in detach mode
+  - `make stop` : Stop
+  - `make start-docs` : Start Documentation Website
+  - `make stop-docs` : Stop Documentation Website
+- **Development** :
+  - `make bash-dev` : Start a bash into the container to develop (example : `pdm run stakainer --help`)
+  - `make build-dev` : Build
+  - `make start-dev` : Start
+  - `make start-detach-dev` : Start in detach mode
+  - `make stop-dev` : Stop
+  - `make start-docs-dev` : Start Documentation Website
+  - `make stop-docs-dev` : Stop Documentation Website
 
 ## Contributing
 

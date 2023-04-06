@@ -47,6 +47,7 @@ Types of changes :
   - **Documentations** :
     - TODO
 - **Changed** :
+  - Upgrade E Sphere Framework 1.12.0 to 1.13.0
   - Upgrade E Sphere Framework 1.10.0 to 1.12.0
 
 ## [0.1.0] - 15-08-2022

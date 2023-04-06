@@ -1,12 +1,6 @@
-[tool.pdm]
-[tool.pdm.dev-dependencies]
-dev = [
-    "flake8>=6.0.0",
-]
-
 [project]
 name = "stackainer"
-version = "0.1.0"
+version = "1.0.0"
 description = "Manage Docker Stack and Services"
 authors = [
     {name = "ProgOwer", email = "ProgOwer0770@gmail.com"},
@@ -18,6 +12,14 @@ dependencies = [
 requires-python = ">=3.10"
 readme = "README.md"
 license = {text = "MIT"}
+
+[tool.pdm]
+[tool.pdm.dev-dependencies]
+dev = [
+    "flake8>=6.0.0",
+]
+[tool.pdm.scripts]
+stackainer = { call = "src.stackainer.main:app" }
 
 [build-system]
 requires = ["pdm-pep517>=1.0"]

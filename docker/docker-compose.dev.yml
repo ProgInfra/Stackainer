@@ -1,0 +1,12 @@
+---
+
+services:
+  stackainer-dev:
+    container_name: stackainer-dev
+    image: progower/stackainer:dev
+    build:
+      context: ..
+      dockerfile: ./docker/Dockerfile.dev
+    volumes:
+    - ../:/usr/src/app:rw
+    restart: "no"

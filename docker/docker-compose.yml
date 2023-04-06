@@ -1,0 +1,10 @@
+---
+
+services:
+  stackainer:
+    container_name: stackainer
+    image: progower/stackainer:1.0.0
+    build:
+      context: ..
+      dockerfile: ./docker/Dockerfile
+    restart: "no"
