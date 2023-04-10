@@ -23,16 +23,15 @@
 
 ## Ideas
 
-- Script to perform action on each services (each files / docker compose files) : Start and Stop
 - Traefik :
   - Mix of File for Middleware and Label for services
   - File for non Docker services
   - Docs for DNS Challenge (Cloudflare)
   - Docs for HTTP Challenge
   - Register in DNS : Use IP of Traefik Server in DNS
-- Automatic Script : Ansible / Bash / Typer
-- Be Careful to permission
 - Frontend to get web UI to create new stack
+- Change JSON Database to SQLite Database
+- Back for front and Frontend to manage multiple Stackainer instance with API
 
 ## Stack Ideas
 

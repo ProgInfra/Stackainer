@@ -2,8 +2,8 @@
 import typer
 
 # Import created libraries
-from .commands import dev
-from .commands import stack
+from .cli import dev
+from .cli import stack
 from .utils import wrapper
 
 

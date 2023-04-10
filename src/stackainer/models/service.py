@@ -10,12 +10,12 @@ class Port:
     port: int
 
 
-class Url:
+class Domain:
     '''
-    Service URL.
+    Service Domain.
     '''
     name: str
-    url: str
+    domain: str
 
 
 class Variable:
@@ -46,6 +46,6 @@ class Service:
     category: Categories = Categories.miscellaneous
     dependencies: list(str) = []
     ports: list(Port) = []
-    urls: list(Url) = []
+    urls: list(Domain) = []
     variables: list(Variable) = []
     secrets: list(Secret) = []

@@ -13,7 +13,7 @@
   - [Getting Started](#getting-started)
     - [With Pip](#with-pip)
     - [With Docker](#with-docker)
-  - [Type of Deployment Available](#type-of-deployment-available)
+    - [Start to use it](#start-to-use-it)
   - [Stack Available](#stack-available)
     - [Management Stack](#management-stack)
     - [Storage Stack](#storage-stack)
@@ -83,15 +83,14 @@ stackainer --help
 TODO
 ```
 
-TODO Documentation Create new stack ./docs/stack.md
+### Start to use it
 
-## Type of Deployment Available
+Here are some tutorial :
 
-There are several deployment possible :
+- [Init your first Stackainer](./docs/tutorials/getting-started.md)
+- [Create a new service](./docs/tutorials/new-service.md)
 
-- **Docker** : **Basic Docker** deployment with just a **port mapping** for each **services** on a **Single Docker Machine**.
-- **Traefik** : **Deployment** with Traefik as main **Reverse Proxy** to use a **domain name** and **HTTPS** to access each services on a **Single Docker Machine**.
-- **Swarm** : **Advanced Deployment**, same as **Traefik Deployment** but with **Swarm Orchestrator** to deploy the stack on a **Cluster** of **Docker Machines**.
+If you want more documentations, there are available [here](#documentations) (you can retrieve the principe of stack [here](./docs/stack.md)).
 
 ## Stack Available
 
@@ -100,8 +99,6 @@ Each stack have a lot of **services available** (if **checked**) or in futur (if
 ### Management Stack
 
 - [ ] [Portainer](https://www.portainer.io/) : Container Management.
-  - **Port** : TODO
-  - **Base URL** : TODO
 
 ### Storage Stack
 
@@ -128,8 +125,6 @@ Each stack have a lot of **services available** (if **checked**) or in futur (if
 ### Access Stack
 
 - [ ] [Traefik Proxy V2](https://traefik.io/traefik/) : Cloud Native Application Proxy.
-  - **Port** : 80 (HTTP) / 443 (HTTPS)
-  - **Base URL** : proxy.DOMAIN
 - [ ] [Heimdall](https://heimdall.site/) : Applications Dashboard.
 - [ ] [Organizr](https://organizr.app/) : Services portal.
 - [ ] [Dashy](https://dashy.to/) : Ultimate Homepage for Homelab.
@@ -200,7 +195,14 @@ See [CHANGELOG](./CHANGELOG.md) for more information.
 
 - [Ideas](./docs/ideas.md)
 - [Resources](./docs/resources.md)
-- [New Stack](./docs/stack.md)
+- [Database](./docs/database.md)
+- [Stack](./docs/stack.md)
+- **Tutorials** :
+  - [Init your first Stackainer](./docs/tutorials/getting-started.md)
+  - [Create a new service](./docs/tutorials/new-service.md)
+- **Interface** :
+  - [CLI](./docs/interfaces/cli.md)
+  - [API](./docs/interfaces/api.md)
 
 ## Development
 
