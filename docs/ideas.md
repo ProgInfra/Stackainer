@@ -83,7 +83,8 @@
 
 ### Game Stack
 
-- Nothing.
+- [ ] [LinuxGSM](https://linuxgsm.com/) : Command line tool to deploy and manage game servers.
+- [ ] [PufferPanel](https://www.pufferpanel.com/) : Open Source game management panel with template.
 
 ### Media Stack
 
@@ -119,6 +120,9 @@
 - [ ] [Sonarr](https://github.com/Sonarr/Sonarr) : Series Auto Downloader.
 - [ ] [Bazarr](https://www.bazarr.media/) : Companion to Sonarr and Radarr to download Subtitles.
 - [ ] [Focalboard](https://www.focalboard.com/) : Project and Task management.
+- [ ] [Kaizoku](https://github.com/oae/kaizoku) : Manga Downloader.
+- [ ] [Mangal](https://github.com/metafates/mangal) : Command line manga downloader.
+- [ ] [Animdl](https://github.com/justfoolingaround/animdl) : Anime scraper.
 - [ ] HakuNeko Docker : Manga Downloader with Web UI.
 
 ### Utility Stack
@@ -140,6 +144,7 @@
 - [ ] [The Lounge](https://thelounge.chat/) : Web IRC Client.
 - [ ] [Peppermint](https://github.com/Peppermint-Lab/peppermint) : Simple Ticket Management.
 - [ ] [UVdesk](https://www.uvdesk.com/en/) : Advanced Ticket Management.
+- [ ] [AppFlowy.IO](https://appflowy.io/) : Open Source alternative to Notion to manage data and documents.
 
 ### Development Stack
 
@@ -158,6 +163,11 @@
 - [ ] [Cloud9](https://github.com/c9/core) : Web IDE.
 - [ ] [NetBox](https://github.com/netbox-community/netbox) : Network Infrastructure Modeling.
 - [ ] [DevDocs](https://github.com/freeCodeCamp/devdocs) : Offline Development Documentation.
+- [ ] [Baserow](https://baserow.io/) : Open Source no code database.
+- [ ] [AppWrite](https://appwrite.io/) : Open Source Backend.
+- [ ] [Supabase](https://supabase.com/) : Open Source Firebase alternative for big project.
+- [ ] [Strapi](https://strapi.io/) : Open Source CMS.
+- [ ] [PocketBase](https://pocketbase.io/) : Open Source Backend for small project.
 
 ### Miscellaneous
 
