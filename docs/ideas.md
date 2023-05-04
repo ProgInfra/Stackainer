@@ -69,6 +69,8 @@
 - [ ] [WireGuard-UI](https://github.com/ngoduykhanh/wireguard-ui) : WireGuard web UI.
 - [ ] [Mistborn](https://gitlab.com/cyber5k/mistborn) : WireGuard and Firewall Management.
 - [ ] [Pi-Hole](https://pi-hole.net/) : Network-wide Ad Blocking.
+- [ ] [Pi.Alert](https://github.com/pucherot/Pi.Alert) : Scan devices connected and throw alert for unknown devices.
+- [ ] [Speedtest Tracker](https://github.com/henrywhitaker3/Speedtest-Tracker) : Monitoring Speed Test each hours.
 
 ### Security Stack
 
@@ -168,6 +170,7 @@
 - [ ] [Supabase](https://supabase.com/) : Open Source Firebase alternative for big project.
 - [ ] [Strapi](https://strapi.io/) : Open Source CMS.
 - [ ] [PocketBase](https://pocketbase.io/) : Open Source Backend for small project.
+- [ ] [Metabase](https://www.metabase.com/) : Open Source Business Intelligence Platform.
 
 ### Miscellaneous
 
