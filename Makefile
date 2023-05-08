@@ -1,13 +1,12 @@
 # Production
-publish:
-	docker compose -f ./docker/docker-compose.yml push
+publish: publish-docker
 	docker compose -f ./docker/docker-compose.dev.yml run --rm -it stackainer-dev pdm publish
 
-publish-docker:
+publish-docker: build
 	docker login
 	docker push progower/stackainer:1.0.0
 
-build:
+build: generate-docs
 	docker compose -f ./docker/docker-compose.yml build
 
 start:
@@ -19,6 +18,9 @@ start-detach:
 stop:
 	docker compose -f ./docker/docker-compose.yml down
 
+generate-docs:
+	docker compose -f ./docker/docker-compose.dev.yml run --rm -it media-naming-dev bash -c "cd src && pdm run docs"
+
 
 start-docs:
 	docker compose -f ./docsify/docker-compose.yml up --build
@@ -28,8 +30,11 @@ stop-docs:
 
 
 # Development
-bash-dev:
+bash:
 	docker compose -f ./docker/docker-compose.dev.yml run --rm -it stackainer-dev bash 
+
+lint:
+	docker compose -f ./docker/docker-compose.dev.yml run --rm -it stackainer-dev pdm run flake8
 
 build-dev:
 	docker compose -f ./docker/docker-compose.dev.yml build
@@ -43,10 +48,6 @@ start-detach-dev:
 
 stop-dev:
 	docker compose -f ./docker/docker-compose.dev.yml down
-
-
-lint:
-	docker compose -f ./docker/docker-compose.dev.yml run --rm -it stackainer-dev pdm run flake8
 
 
 start-docs-dev:

@@ -1,1 +1,5 @@
-# GetAll, GetBy..., Create, Edit, Delete
+# GetAll
+# GetBy...
+# Create
+# Edit
+# Delete

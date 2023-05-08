@@ -65,6 +65,8 @@
 
 - [ ] [Homer](https://github.com/bastienwirtz/homer) : Simple static Homepage
 - [ ] [RustDesk](https://rustdesk.com/server/) : Open source virtual / remote desktop.
+- [ ] [WireGuard](https://www.wireguard.com/) : Fast, Modern and Secure VPN Tunnel.
+- [ ] [WG-Manager](https://github.com/perara/wg-manager) : Manage WireGuard with web UI.
 - [ ] [WG UI](https://github.com/EmbarkStudios/wg-ui) : Basic WireGuard web UI.
 - [ ] [WireGuard-UI](https://github.com/ngoduykhanh/wireguard-ui) : WireGuard web UI.
 - [ ] [Mistborn](https://gitlab.com/cyber5k/mistborn) : WireGuard and Firewall Management.

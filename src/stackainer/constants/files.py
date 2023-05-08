@@ -1,17 +1,12 @@
-# TODO GitIgnore Template File
-# TODO GitKeep for each folder
-# TODO FolderTree
-
-GITIGNORE_CONTENT = '''
-# Environment Files
+GITIGNORE_CONTENT = '''# Environment Files
 .env
 
-# Datas
+# Data
 data
 '''
 
-FOLDER_TREE_WITH_KEEP = {
-    "assets": True,
-    "stacks": True,
-    "data": True,
-}
+FOLDERS = [
+    { "name": "assets", "keep": True },
+    { "name": "stacks", "keep": True },
+    { "name": "data", "keep": True },
+]

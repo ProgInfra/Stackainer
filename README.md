@@ -129,9 +129,10 @@ Each stack have a lot of **services available** (if **checked**) or in futur (if
 - [ ] [Organizr](https://organizr.app/) : Services portal.
 - [ ] [Dashy](https://dashy.to/) : Ultimate Homepage for Homelab.
 - [ ] [Pi-Hole](https://pi-hole.net/) : Network-wide Ad Blocking.
-- [ ] [WireGuard](https://www.wireguard.com/) : Fast, Modern and Secure VPN Tunnel.
-- [ ] [WG-Manager](https://github.com/perara/wg-manager) : Manage WireGuard with web UI.
 - [ ] [AdGuard Home](https://adguard.com/en/adguard-home/overview.html) : Blocker of ads and tracking (DNS and DHCP Server).
+- [ ] [Tailscale](https://tailscale.com/) : Secure remote access to shared resources (use of Wireguard).
+- [ ] [Headscale](https://github.com/juanfont/headscale) : Open Source Tailscale control server.
+- [ ] [Headscale WEBUI](https://github.com/ifargle/headscale-webui) : Headscale web ui.
 
 ### Security Stack
 
@@ -223,7 +224,8 @@ If you want you can **develop** this repository :
   - `make start-docs` : Start Documentation Website
   - `make stop-docs` : Stop Documentation Website
 - **Development** :
-  - `make bash-dev` : Start a bash into the container to develop (example : `pdm run stakainer --help`)
+  - `make bash` : Start a bash into the container to develop (example : `pdm run stakainer --help`)
+  - `make lint` : Use Flake8 to check the code quality
   - `make build-dev` : Build
   - `make start-dev` : Start
   - `make start-detach-dev` : Start in detach mode

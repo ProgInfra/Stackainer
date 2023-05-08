@@ -15,9 +15,8 @@ async def add():
     '''
     Add a service and configure it
     '''
-    # Read package.json
-    # Copy files in assets and read .env file
-    # Prompt to configure the service
+    # Stack Repository : Get and Prompt Variable from Assets
+    # Stack Service : Add
     pass
 
 
@@ -27,9 +26,8 @@ async def edit():
     '''
     Edit the configuration of a service
     '''
-    # Read package.json
-    # Read .env file installed
-    # Prompt to reconfigure the service
+    # Stack Repository : Get and Prompt Variable to Edit from Stack
+    # Stack Service : Edit
     pass
 
 
@@ -39,9 +37,8 @@ async def remove():
     '''
     Remove a service
     '''
-    # Read package.json
-    # Stop the service
-    # Update package.json
+    # Stack Repository : Get from Stack
+    # Stack Service : Remove
     pass
 
 
@@ -51,8 +48,7 @@ async def start():
     '''
     Start some services
     '''
-    # Read package.json
-    # Start one or multiple service by query
+    # Stack Service : Start
     pass
 
 
@@ -62,6 +58,5 @@ async def stop():
     '''
     Stop some services
     '''
-    # Read package.json
-    # Stop one or multiple service by query
+    # Stack Service : Stop
     pass

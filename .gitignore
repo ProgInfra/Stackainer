@@ -1,9 +1,6 @@
 # Temporary Folder
 tmp
 
-# IDE
-.vscode
-
 # Python
 __pycache__
 .venv
@@ -11,4 +8,4 @@ dist
 build
 
 # PDM
-.pdm.toml
+.pdm-python
