@@ -55,6 +55,8 @@
 - [ ] [Rclone](https://rclone.org/gui/) : Manage file and Cloud storage.
 - [ ] [Syncthing](https://syncthing.net/) : Cloud Sync Management.
 - [ ] [Docker DB Backup](https://github.com/tiredofit/docker-db-backup) : Auto Backup multiple types of Databases.
+- [ ] [Docker Volume Backup](https://github.com/jareware/docker-volume-backup) : Auto Backup Docker Volumes.
+- [ ] [Volumerize](https://github.com/blacklabelops/volumerize) : Auto Backup Docker Volumes.
 - [ ] Discord Backup Script : TODO
 
 ### Monitoring Stack
@@ -73,6 +75,7 @@
 - [ ] [Pi-Hole](https://pi-hole.net/) : Network-wide Ad Blocking.
 - [ ] [Pi.Alert](https://github.com/pucherot/Pi.Alert) : Scan devices connected and throw alert for unknown devices.
 - [ ] [Speedtest Tracker](https://github.com/henrywhitaker3/Speedtest-Tracker) : Monitoring Speed Test each hours.
+- [ ] [Netmaker](https://www.netmaker.io/) : Network conception and management.
 
 ### Security Stack
 
@@ -107,6 +110,7 @@
 - [ ] [Owncloud](https://owncloud.com/) : Files Cloud.
 - [ ] [Kavita](https://www.kavitareader.com/) : Digital Ebook Livrary.
 - [ ] [MiniFlux](https://miniflux.app/) : Minimalist and opinionated feed reader.
+- [ ] [Navidrome](https://www.navidrome.org/) : Personal Audio Streaming Service.
 
 ### Download Stack
 
@@ -149,6 +153,7 @@
 - [ ] [Peppermint](https://github.com/Peppermint-Lab/peppermint) : Simple Ticket Management.
 - [ ] [UVdesk](https://www.uvdesk.com/en/) : Advanced Ticket Management.
 - [ ] [AppFlowy.IO](https://appflowy.io/) : Open Source alternative to Notion to manage data and documents.
+- [ ] [BookStack](https://www.bookstackapp.com/) : Platform for organising and storing information.
 
 ### Development Stack
 
@@ -173,6 +178,10 @@
 - [ ] [Strapi](https://strapi.io/) : Open Source CMS.
 - [ ] [PocketBase](https://pocketbase.io/) : Open Source Backend for small project.
 - [ ] [Metabase](https://www.metabase.com/) : Open Source Business Intelligence Platform.
+- [ ] [Caprover](https://caprover.com/) : Open Source PaaS.
+- [ ] [Coolify](https://coolify.io/) : Self Hostable Heroku.
+- [ ] [Dokku](https://dokku.com/) : Open Source PaaS.
+- [ ] [OpenFaaS](https://www.openfaas.com/) : Serverless Functions.
 
 ### Miscellaneous
 

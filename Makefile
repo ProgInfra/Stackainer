@@ -6,7 +6,7 @@ publish-docker: build
 	docker login
 	docker push progower/stackainer:1.0.0
 
-build: generate-docs
+build: build-dev generate-docs
 	docker compose -f ./docker/docker-compose.yml build
 
 start:

@@ -10,6 +10,8 @@ from . import assets as AssertsService
 
 async def init(name: str, domain: str):
     # Init and create the initial stackainer.json
+    # Init with Git and add .gitignore
+    # Create folders with GitKeep (assets, stacks, data)
     pass
 
 
@@ -26,6 +28,7 @@ async def check(
     print(envFileData)
 
 
+# Refresh : Scan assets and stacks folder to recreate the stackainer.json
 # Install : Get and Update Assets and Create Folder
 # List : Get Assets and Stack
 # Upgrade : Get Assets and Stack, Compare and Prompt to update
