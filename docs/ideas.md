@@ -127,6 +127,7 @@
 - [ ] [Radarr](https://github.com/Radarr/Radarr) : Fork of Sonarr but for Movies Auto Downloader.
 - [ ] [Sonarr](https://github.com/Sonarr/Sonarr) : Series Auto Downloader.
 - [ ] [Bazarr](https://www.bazarr.media/) : Companion to Sonarr and Radarr to download Subtitles.
+- [ ] [Prowlarr](https://github.com/Prowlarr/Prowlarr) : Jackett indexer alternative.
 - [ ] [Focalboard](https://www.focalboard.com/) : Project and Task management.
 - [ ] [Kaizoku](https://github.com/oae/kaizoku) : Manga Downloader.
 - [ ] [Mangal](https://github.com/metafates/mangal) : Command line manga downloader.
