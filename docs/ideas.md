@@ -155,6 +155,7 @@
 - [ ] [UVdesk](https://www.uvdesk.com/en/) : Advanced Ticket Management.
 - [ ] [AppFlowy.IO](https://appflowy.io/) : Open Source alternative to Notion to manage data and documents.
 - [ ] [BookStack](https://www.bookstackapp.com/) : Platform for organising and storing information.
+- [ ] [Affine](https://affine.pro/) : Knownledge base (notion alternative).
 
 ### Development Stack
 
@@ -183,6 +184,8 @@
 - [ ] [Coolify](https://coolify.io/) : Self Hostable Heroku.
 - [ ] [Dokku](https://dokku.com/) : Open Source PaaS.
 - [ ] [OpenFaaS](https://www.openfaas.com/) : Serverless Functions.
+- [ ] [Budibase](https://budibase.com/) : All in one app build.
+- [ ] [Cloudron](https://docs.cloudron.io/) : Paas.
 
 ### Miscellaneous
 

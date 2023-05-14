@@ -8,6 +8,7 @@
 
 - [Stackainer](#stackainer)
   - [Table Of Contents](#table-of-contents)
+  - [BREAK](#break)
   - [Description](#description)
   - [Access](#access)
   - [Getting Started](#getting-started)
@@ -33,6 +34,10 @@
     - [Build and Deploy](#build-and-deploy)
   - [Contributing](#contributing)
   - [Licence](#licence)
+
+## BREAK
+
+This project is redundant to other project, so I've decided to help other project to develop instead of create my own alternative project.
 
 ## Description
 
