@@ -156,6 +156,7 @@
 - [ ] [AppFlowy.IO](https://appflowy.io/) : Open Source alternative to Notion to manage data and documents.
 - [ ] [BookStack](https://www.bookstackapp.com/) : Platform for organising and storing information.
 - [ ] [Affine](https://affine.pro/) : Knownledge base (notion alternative).
+- [ ] [Homebox](https://hay-kot.github.io/homebox/) : Inventory organization system.
 
 ### Development Stack
 
