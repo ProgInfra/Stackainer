@@ -111,6 +111,7 @@
 - [ ] [Kavita](https://www.kavitareader.com/) : Digital Ebook Livrary.
 - [ ] [MiniFlux](https://miniflux.app/) : Minimalist and opinionated feed reader.
 - [ ] [Navidrome](https://www.navidrome.org/) : Personal Audio Streaming Service.
+- [ ] [Tanoshi](https://faldez.github.io/tanoshi/) : Manga Reader.
 
 ### Download Stack
 
